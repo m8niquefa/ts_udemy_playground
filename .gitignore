@@ -42,5 +42,6 @@ yarn.lock
 node_modules
 
 .cache
+maps/dist
 maps/.cache
 *.cache
