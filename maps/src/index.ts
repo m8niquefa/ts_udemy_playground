@@ -1,5 +1,7 @@
 
 /// <reference types="@types/google.maps" />
+import { User } from './User';
+import { Company } from './Company';
 
 //https://developers.google.com/maps/documentation/javascript/using-typescript#Module_Import
 
@@ -10,16 +12,8 @@
 // const company = new Company();
 // console.log(company);
 
-const mapElement = document.getElementById('map');
-if (mapElement) {
-new google.maps.Map(mapElement, {
-  zoom: 1,
-  center: {
-    lat: 0,
-    lng: 0
-  }
-});
-  console.log('Map element found')
-} else {
-  console.error('No map element found');
-}
+import { CustomMap } from './CustomMap';
+
+const customMap = new CustomMap('map');
+customMap.addMarker(new User());
+customMap.addMarker(new Company());
