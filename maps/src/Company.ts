@@ -1,4 +1,5 @@
-import faker from 'faker';
+import { faker } from "@faker-js/faker";
+
 
 export class Company {
   companyName : string;
@@ -8,7 +9,7 @@ export class Company {
     lng: number;
   };
   constructor() {
-    this.companyName = faker.company.companyName();
+    this.companyName = faker.company.name();
     this.catchPhrase = faker.company.catchPhrase();
     this.location = {
       lat: parseFloat(faker.address.latitude()),
