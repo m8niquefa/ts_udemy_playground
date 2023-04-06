@@ -14,7 +14,7 @@ Programmer assign the type
 Typescript guest the type
 
 
-#parcel 
+# Parcel Stuff
 
-npx parcel index.html
-npm install -g parcel-bundler
+* ```npx parcel index.html```
+* ```npm install -g parcel-bundler```
