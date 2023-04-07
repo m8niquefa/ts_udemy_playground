@@ -49,10 +49,10 @@ maps/.cache
 
 # Ignore subprojects
 section10Code/.cache
-section10Code/.build
+section10Code/build
 section10Code/node_modules
 
 
 CSVPlayground/.cache
-CSVPlayground/.build
+CSVPlayground/build
 CSVPlayground/node_modules
