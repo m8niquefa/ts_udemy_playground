@@ -46,3 +46,13 @@ node_modules
 maps/dist
 maps/.cache
 *.cache
+
+# Ignore subprojects
+section10Code/.cache
+section10Code/.build
+section10Code/node_modules
+
+
+CSVPlayground/.cache
+CSVPlayground/.build
+CSVPlayground/node_modules
